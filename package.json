@@ -1,0 +1,36 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w server -e js,graphql server/server.js",
+    "compile": "babel src --out-dir public",
+    "watch": "babel src --out-dir public --watch --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrutikhandekar1/CS648C1-assignment2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shrutikhandekar1/CS648C1-assignment2/issues"
+  },
+  "homepage": "https://github.com/shrutikhandekar1/CS648C1-assignment2#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.10.1",
+    "classnames": "^2.2.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^0.13.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-core": "^7.0.0-bridge.0"
+  }
+}
